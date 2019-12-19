@@ -32,7 +32,7 @@ GEM
     nokogiri (1.4.3.1)
     nokogiri (1.4.3.1-java)
       weakling (>= 0.0.3)
-    rack (1.2.1)
+    rack (1.6.12)
     rake (0.8.7)
     rspec (2.1.0)
       rspec-core (~> 2.1.0)
@@ -59,13 +59,8 @@ PLATFORMS
 DEPENDENCIES
   ZenTest (~> 4.4)
   bundler (~> 1.0)
-  faraday (~> 0.5.3)
-  faraday_middleware (~> 0.3.0)
-  hashie (~> 0.4.0)
   json (~> 1.4)
   maruku (~> 0.6)
-  multi_json (~> 0.0.5)
-  multi_xml (~> 0.2.0)
   nokogiri (~> 1.4)
   open311!
   rake (~> 0.8)
